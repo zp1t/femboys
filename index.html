@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>mc.trace.rip | Absolute Anarchy</title>
+    
+    <meta name="description" content="Pure Paper. Absolute Anarchy. mc.trace.rip is a Minecraft server with no rules, no admins, and no resets. Join the chaos today.">
+    <meta name="keywords" content="minecraft anarchy server, 2b2t alternative, trace.rip, no rules minecraft, pure anarchy">
+    <meta name="theme-color" content="#ffb3d1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="container nav-inner">
+            <a href="#" class="logo">trace.rip</a>
+            <div class="nav-links">
+                <a href="#info">Info</a>
+                <a href="#funding">Help Fund</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#info">Info</a>
+        <a href="#funding">Help Fund</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <section class="hero">
+        <div class="hero-bg"></div>
+        
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 data-aos="fade-up" data-aos-duration="1000">
+                    Pure Paper.<br>
+                    <span class="gradient-text">Absolute Anarchy.</span>
+                </h1>
+
+                <p data-aos="fade-up" data-aos-delay="200">
+                    A neverending world with no rules. No admins. No resets.<br>
+                    The history is written by the players.
+                </p>
+
+                <div class="ip-copy" onclick="copyIp('mc.trace.rip')" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fa-regular fa-copy"></i>
+                    <span>mc.trace.rip</span>
+                </div>
+
+                <div class="player-count" data-aos="fade-up" data-aos-delay="500">
+                    <div class="status-dot"></div>
+                    <span><strong id="playerCount">27</strong> players online</span>
+                </div>
+            </div>
+
+            <div class="hero-character" data-aos="fade-left" data-aos-delay="600">
+                <img src="character.png" alt="trace.rip" id="characterImg">
+                <div class="glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="info">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Server Information</h2>
+                <p>mc.trace.rip is a Minecraft server that promises pure vanilla survival on PaperMC — with zero interference.</p>
+            </div>
+
+            <div class="cards-grid">
+
+                <div class="card wide" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon"><i class="fa-solid fa-globe"></i></div>
+                    <h3>The World</h3>
+                    <p>The map has never been reset.<br>
+                    Current Size: <strong>9+ GB</strong> — over <strong>27</strong> unique players.<br>
+                    <span class="sub">Born January 14, 2026</span></p>
+                </div>
+
+                <div class="card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon"><i class="fa-solid fa-skull"></i></div>
+                    <h3>No Rules</h3>
+                    <p>Griefing, stealing, and hacking are fully allowed.<br>No land claims. No bans. Ever.</p>
+                </div>
+
+                <div class="card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon"><i class="fa-solid fa-microchip"></i></div>
+                    <h3>Hardware</h3>
+                    <p>Hosted on high-speed NVMe storage.<br>20 TPS is the goal — always.</p>
+                </div>
+
+                <div class="card wide" data-aos="fade-up" data-aos-delay="400">
+                    <div class="icon"><i class="fa-solid fa-network-wired"></i></div>
+                    <h3>Connection IPs</h3>
+                    <div class="ip-list">
+                        <code onclick="copyIp('mc.trace.rip')">mc.trace.rip</code>
+                        <code onclick="copyIp('trace.rip')">trace.rip</code>
+                        <code onclick="copyIp('mc.searchub.vip')">mc.searchub.vip</code>
+                        <code onclick="copyIp('searchub.vip')">searchub.vip</code>
+                        <code onclick="copyIp('mc.constantium.net')">mc.constantium.net</code>
+                        <code onclick="copyIp('constantium.net')">constantium.net</code>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="funding" class="funding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Funding & Rewards</h2>
+                <p>trace.rip survives purely on community support. All donations go directly to keeping the server alive.</p>
+            </div>
+
+            <div class="funding-grid">
+
+                <div class="funding-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Current Cost</h3>
+                    <div class="price">$24.00 <span>/ month</span></div>
+                    <div class="warning">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        If funding stops → server moves to cheaper (slower) hardware.
+                    </div>
+                </div>
+
+                <div class="rewards-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Available Rewards</h3>
+
+                    <div class="reward">
+                        <div class="reward-icon"><i class="fa-solid fa-image"></i></div>
+                        <div>
+                            <h4>Server Icon</h4>
+                            <p>Custom 64×64 icon shown in server list<br><strong>$2.00</strong> / 48 hours</p>
+                        </div>
+                    </div>
+
+                    <div class="reward">
+                        <div class="reward-icon"><i class="fa-solid fa-eye"></i></div>
+                        <div>
+                            <h4>Supporter Rank</h4>
+                            <p>32 render & simulation distance (default is 12)<br><strong>$10.00</strong> one-time</p>
+                        </div>
+                    </div>
+
+                    <p class="contact-info">
+                        Contact via email or Discord to purchase → <a href="mailto:contact@trace.rip">contact@trace.rip</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Contact & Community</h2>
+            </div>
+
+            <p class="big-email" data-aos="fade-up" data-aos-delay="100">
+                <a href="mailto:contact@trace.rip">contact@trace.rip</a>
+            </p>
+
+            <div class="social-grid">
+                <a href="https://discord.gg/CNZzwhUTCm" target="_blank" class="social" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fa-brands fa-discord"></i>
+                    <div>
+                        <h3>Discord</h3>
+                        <p>Updates, discussion, clans</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/tracerip" target="_blank" class="social" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fa-brands fa-github"></i>
+                    <div>
+                        <h3>GitHub</h3>
+                        <p>Custom death messages & projects</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 mc.trace.rip — Not affiliated with Mojang Studios.</p>
+        </div>
+    </footer>
+
+    <div class="toast" id="toast">
+        <i class="fa-solid fa-check-circle"></i>
+        <span>IP Copied: mc.trace.rip</span>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
