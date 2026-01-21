@@ -1,0 +1,16 @@
+{
+    "name": "freefemboys.xyz",
+    "short_name": "freefemboys",
+    "description": "Pure Paper. Absolute Anarchy. No rules. No admins. No resets.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#111111",
+    "theme_color": "#ff4d88",
+    "icons": [
+        {
+            "src": "character.png",
+            "sizes": "1024x1214",
+            "type": "image/png"
+        }
+    ]
+}
